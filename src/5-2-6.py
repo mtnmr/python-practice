@@ -1,13 +1,13 @@
 def is_match(T,S):
-    for i in range (0,len(S)-len(t)+1):
+    for i in range (0,len(S)-len(T)+1):
         ok = True
 
         for j in range(0,len(T)):
-        if S[i + j] != T[j] and T[j] !=  ".":
-            ok = False
+            if S[i + j] != T[j] and T[j] !=  ".":
+                ok = False
 
-        if ok:
-            return True
+            if ok:
+                return True
     return False
 
 S = input()
