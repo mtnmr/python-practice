@@ -11,7 +11,7 @@ value = [[-float('inf')] * (W+1) for i in range(n+1)] #最大価値の初期値�
 
 value[0][0] = 0
 
-for i in range(n+1):
+for i in range(1, n+1):
     for w in range(W+1):
         #iを使わない時
         value[i][w] = max(value[i][w], value[i-1][w])
