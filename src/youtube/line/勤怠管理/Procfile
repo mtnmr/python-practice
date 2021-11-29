@@ -1,0 +1,2 @@
+herokuで何を起動したいか、実行ファイルを明記するもの
+web : python app.py

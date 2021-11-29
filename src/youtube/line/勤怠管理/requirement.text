@@ -1,0 +1,9 @@
+herokuにpythonの環境を用意する
+必要なライブラリをインストールする
+バージョンを指定したするなら==(基本的にはかく)、指定しなければ最新版になる
+
+Flask
+line-bot-sdk
+pandas
+gspred
+oauth2client
